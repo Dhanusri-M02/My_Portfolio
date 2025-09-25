@@ -5,42 +5,27 @@ export default function Navbar({ theme, setTheme }) {
     <nav className="fixed top-0 left-0 w-full z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur p-4 flex items-center justify-between">
       {/* Clickable name that scrolls to Hero */}
       <a
-        href="#Hero"
+        href="#hero"
         className="text-2xl font-bold text-gray-900 dark:text-white hover:text-blue-500 transition"
       >
         Dhanusri
       </a>
 
-      {/* Navigation links with spacing */}
+      {/* Navigation links */}
       <div className="flex items-center gap-8">
-        <a
-          href="#About"
-          className="text-gray-700 dark:text-gray-200 hover:text-blue-500"
-        >
+        <a href="#about" className="text-gray-700 dark:text-gray-200 hover:text-blue-500">
           About
         </a>
-        <a
-          href="#Skills"
-          className="text-gray-700 dark:text-gray-200 hover:text-blue-500"
-        >
+        <a href="#skills" className="text-gray-700 dark:text-gray-200 hover:text-blue-500">
           Skills
         </a>
-        <a
-          href="#Projects"
-          className="text-gray-700 dark:text-gray-200 hover:text-blue-500"
-        >
+        <a href="#projects" className="text-gray-700 dark:text-gray-200 hover:text-blue-500">
           Projects
         </a>
-        <a
-          href="#Achievements"
-          className="text-gray-700 dark:text-gray-200 hover:text-blue-500"
-        >
+        <a href="#achievements" className="text-gray-700 dark:text-gray-200 hover:text-blue-500">
           Achievements
         </a>
-        <a
-          href="#Contact"
-          className="text-gray-700 dark:text-gray-200 hover:text-blue-500"
-        >
+        <a href="#contact" className="text-gray-700 dark:text-gray-200 hover:text-blue-500">
           Contact
         </a>
 
