@@ -29,7 +29,7 @@ export default function Hero() {
           </h3>
 
           <p className="text-gray-300 mb-8 max-w-md">
-            A passionate developer who loves building modern, elegant, and impactful web experiences.
+            A passionate developer,data scientist who loves building modern, elegant, and impactful web experiences.
           </p>
 
           {/* Social Icons */}
